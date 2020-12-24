@@ -1,0 +1,20 @@
+query MyTransferConnection($transferType: String, $after: String) {
+  myTransferConnection(transferType: $transferType, after: $after) {
+    nodes {
+      traceId
+      snapshotId
+      amount
+      assetId
+      transferType
+      createdAt
+      article {
+        uuid
+        title
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "admin.js": "/packs/js/admin-f060e69e8ff6095d589c.chunk.js",
+  "admin.js.map": "/packs/js/admin-f060e69e8ff6095d589c.chunk.js.map",
+  "application.js": "/packs/js/application-ea9129f9cf50a2829596.chunk.js",
+  "application.js.map": "/packs/js/application-ea9129f9cf50a2829596.chunk.js.map",
+  "dashboard.js": "/packs/js/dashboard-9c765df3e59e79c7e5f9.chunk.js",
+  "dashboard.js.map": "/packs/js/dashboard-9c765df3e59e79c7e5f9.chunk.js.map",
+  "entrypoints": {
+    "admin": {
+      "js": [
+        "/packs/js/runtime~admin-cbadbc2c25d1551c1984.js",
+        "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js",
+        "/packs/js/vendors~admin-3b436c821ee4905a9231.chunk.js",
+        "/packs/js/admin-f060e69e8ff6095d589c.chunk.js"
+      ],
+      "js.map": [
+        "/packs/js/runtime~admin-cbadbc2c25d1551c1984.js.map",
+        "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js.map",
+        "/packs/js/vendors~admin-3b436c821ee4905a9231.chunk.js.map",
+        "/packs/js/admin-f060e69e8ff6095d589c.chunk.js.map"
+      ],
+      "css": [
+        "/packs/css/vendors~admin~application~dashboard-49cdfd4b.chunk.css"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/runtime~application-89575deb0fd45f2917a8.js",
+        "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js",
+        "/packs/js/vendors~application~dashboard-f7c49c1340bb6ea05f7c.chunk.js",
+        "/packs/js/application-ea9129f9cf50a2829596.chunk.js"
+      ],
+      "js.map": [
+        "/packs/js/runtime~application-89575deb0fd45f2917a8.js.map",
+        "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js.map",
+        "/packs/js/vendors~application~dashboard-f7c49c1340bb6ea05f7c.chunk.js.map",
+        "/packs/js/application-ea9129f9cf50a2829596.chunk.js.map"
+      ],
+      "css": [
+        "/packs/css/vendors~admin~application~dashboard-49cdfd4b.chunk.css"
+      ]
+    },
+    "dashboard": {
+      "js": [
+        "/packs/js/runtime~dashboard-6d7264e5b1b6a86e686b.js",
+        "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js",
+        "/packs/js/vendors~application~dashboard-f7c49c1340bb6ea05f7c.chunk.js",
+        "/packs/js/dashboard-9c765df3e59e79c7e5f9.chunk.js"
+      ],
+      "js.map": [
+        "/packs/js/runtime~dashboard-6d7264e5b1b6a86e686b.js.map",
+        "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js.map",
+        "/packs/js/vendors~application~dashboard-f7c49c1340bb6ea05f7c.chunk.js.map",
+        "/packs/js/dashboard-9c765df3e59e79c7e5f9.chunk.js.map"
+      ],
+      "css": [
+        "/packs/css/vendors~admin~application~dashboard-49cdfd4b.chunk.css"
+      ]
+    }
+  },
+  "media/src/images/logo.svg": "/packs/media/src/images/logo-88d70463ca10daf3f879a77a6205768c.svg",
+  "runtime~admin.js": "/packs/js/runtime~admin-cbadbc2c25d1551c1984.js",
+  "runtime~admin.js.map": "/packs/js/runtime~admin-cbadbc2c25d1551c1984.js.map",
+  "runtime~application.js": "/packs/js/runtime~application-89575deb0fd45f2917a8.js",
+  "runtime~application.js.map": "/packs/js/runtime~application-89575deb0fd45f2917a8.js.map",
+  "runtime~dashboard.js": "/packs/js/runtime~dashboard-6d7264e5b1b6a86e686b.js",
+  "runtime~dashboard.js.map": "/packs/js/runtime~dashboard-6d7264e5b1b6a86e686b.js.map",
+  "vendors~admin.js": "/packs/js/vendors~admin-3b436c821ee4905a9231.chunk.js",
+  "vendors~admin.js.map": "/packs/js/vendors~admin-3b436c821ee4905a9231.chunk.js.map",
+  "vendors~admin~application~dashboard.css": "/packs/css/vendors~admin~application~dashboard-49cdfd4b.chunk.css",
+  "vendors~admin~application~dashboard.js": "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js",
+  "vendors~admin~application~dashboard.js.map": "/packs/js/vendors~admin~application~dashboard-4141e739b40dc522b0fc.chunk.js.map",
+  "vendors~application~dashboard.js": "/packs/js/vendors~application~dashboard-f7c49c1340bb6ea05f7c.chunk.js",
+  "vendors~application~dashboard.js.map": "/packs/js/vendors~application~dashboard-f7c49c1340bb6ea05f7c.chunk.js.map"
+}

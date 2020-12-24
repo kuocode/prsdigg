@@ -1,0 +1,25 @@
+query ArticleConnection($order: String!, $query: String, $after: String) {
+  articleConnection(order: $order, query: $query, after: $after) {
+    nodes {
+      uuid
+      title
+      intro
+      price
+      revenue
+      ordersCount
+      commentsCount
+      upvoteRatio
+      author {
+        name
+        avatarUrl
+        mixinId
+        bio
+      }
+      createdAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

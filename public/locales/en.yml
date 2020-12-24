@@ -1,0 +1,225 @@
+common:
+  loadMore: Load More
+  subscribeBtn: Subscribe
+  unsubscribeBtn: Unsubscribe
+  detailBtn: Detail
+  editBtn: Edit
+  viewBtn: View
+  cancelBtn: Cancel
+  paidBtn: Paid
+messages:
+  payWithMessenger: Please scan the QRCode using Mixin Messenger
+  viewWithMessenger: Please scan the QRCode using Mixin Messenger
+  successSubmitted: Submitted
+  successSubscribed: Subscribed
+  successUnsubscribed: Unsubscribed
+  successHiddenArticle: Article hidden
+  successPublishedArticle: Article published
+article:
+  title: Title
+  content: Content
+  intro: Introduction
+  wordsCount: Words Count
+  price: Price(PRS)
+  upvotesCount: Upvotes
+  downvotesCount: Downvotes
+  commentsCount: Comments Count
+  ordersCount: Paid Times
+  buyOrdersCount: Bought Times
+  rewardOrdersCount: Rewarded Times
+  revenue: Revenue(PRS)
+  authorRevenueAmount: Author Revenue(PRS)
+  readerRevenueAmount: Reader Revenue(PRS)
+  myShare: My Share(%)
+  stateText: State
+  createdAt: Created
+  updatedAt: Last Edited
+  state:
+    published: Published
+    blocked: Blocked
+    hidden: Hidden
+  form:
+    warning: Pleash finish your article first
+    createConfirm: Are you sure to create?
+    createOkText: Create
+    createCancelText: Later
+    createBtn: Create
+    updateConfirm: Are you sure to update your article?
+    updateOkText: Update
+    updateCancelText: Later
+    updateBtn: Update
+    titlePlaceHolder: Title of article
+    contentPlaceHolder: Write something valuable
+    introPlaceHolder: Please introduce your article and this will be public
+    newBtn: New
+payment:
+  state:
+    paid: Paid
+    refunded: Refunded
+    completed: Compelted
+  snapshot: Snapshot
+swapOrder:
+  state:
+    paid:  Paid
+    swapping: Swapping
+    rejected: Rejected
+    swapped: Swapped
+    order_placed: Buying
+    completed: Completed
+    refunded: Refunded
+user:
+  defaultBio: Didn't left anything
+  authorRevenueAmount: Author Revenue(PRS)
+  readerRevenueAmount: Reader Revenue(PRS)
+  articlesCount: Published
+  boughtArticlesCount: Bought
+transfer:
+  transferType:
+    payment_refund: Refund
+    author_revenue: Author
+    reader_revenue: Reader
+  snapshot: Snapshot
+  processing: Processing
+menu:
+  read: Read
+  write: Write
+  search: Search
+  rules: Rules
+  fair: Fair
+  community: Community
+  openSource: Open Source
+  mine: Dashboard
+  login: Login
+  logout: Logout
+homePage:
+  orderByPopularity: Popularity
+  orderByCreatedAt: Lately
+  orderByRevenue: Revenue
+  commentsZone: Comments
+articlePage:
+  moreToRead: 90% More to go
+  payToRead1: Pay
+  payToRead2: to continue reading
+  payToRead3: and receive early reader revenue (Check
+  payToRead4: )
+  payWarning: This article is a virtural product selling on PRSDigg, IT WILL NOT REFUND once paid. Please pay with caution.
+  firstReaderBtn: Be the FIRST reader
+  payToReadBtn: Pay to Read
+  alreadyPaid1: Already paid? Try to
+  alreadyPaid2: Refresh
+  buyPRSTips: Have no PRS? Pay with BTC, EOS, ETH and more!
+  loginBtn: Please Login
+  rewardBtn: Love this Article
+  shareBtn: Share
+  userDetailBtn: Detail
+  payModal:
+    title: Buy Article
+    refundWarning: Payment has been refunded. Please try again.
+    pollingPayment: Checking Payment Status
+    payBtn: Pay
+    checkPaymentBtn: Already Paid
+    swapExplain: Swap supported by
+  rewardModal:
+    title: Reward
+    pollingPayment: Checking
+    successPaidMessage: Payment received. Thanks for supporting!
+    swapExplain: Swap supported by
+    finishText: Finish
+    okText: Reward
+    cancelText: Later
+  timesBought: times bought
+  timesReward: times reward
+userPage:
+  tabs:
+    author: Published
+    reader: Bought
+    comments: Commented
+minePage:
+  publishConfirm: Are you sure to publish this article?
+  hideConfirm: Are you sure to hide this article? Early readers not affected.
+  publishBtn: Publish
+  hideBtn: Hide
+  tabs:
+    author: Published
+    reader: Bought
+    comments: Commented
+    payments: Payments
+    transfers: Revenue
+searchPage:
+  enterBtn: Search
+  placeholder: Input title / introduction / author name
+fairPage:
+  usersCount: Users
+  articlesCount: Articles
+  authorRevenueAmount: Author Revenue(PRS)
+  readerRevenueAmount: Reader Revenue(PRS)
+  tabs:
+    revenue:
+      title: PRSDigg Revenue
+      chartTitle: Revenue Chart
+    transfers:
+      title: Transactions
+rulesPage:
+  content: |
+    ### Rules of PRSDigg
+    
+    PRSDigg try to build a win-win platform for both writer and reader.
+communityPage:
+  mixin: Mixin Group
+commentsComponent:
+  title: Comments
+  subscribeBtn: Subscribe
+  unsubscribeBtn: Unsubscribe
+  emptyText: No Comments
+  deletedText: Deleted by the Administrator
+  quoteBtn: Quote
+  from: From
+  orderBy:
+    desc: DESC
+    asc: ASC
+    upvotes: Upvotes
+  form:
+    warning: Write something first.
+    confirm: Are you sure to submit?
+    okText: Submit
+    cancelText: Later
+    placeholder: Markdown supported
+dashboard:
+  menu: 
+    overview: Overview
+    articles: Artciels Manage
+    revenue: Revenue Manage
+    orders: Orders Manage
+    comments: Comments Manage
+    back: Go Back
+  pages: 
+    article: Article Detail
+    articleNew: New Article
+    articleEdit: Edite Article
+  articlesPage:
+    publishConfirm: Are you sure to publish this article?
+    hideConfirm: Are you sure to hide this article? Early readers not affected.
+    publishBtn: Publish
+    hideBtn: Hide
+    tabs:
+      author: Published
+      reader: Bought
+      comments: Commented
+      payments: Payments
+      transfers: Revenue
+  articlePage:
+    tabs:
+      buyRecords: Buy Records
+      rewardRecords: Reward Records
+      commentRecords: Comments
+    boughtArticle: bought this article
+    rewardedArticle: rewarded this article
+    paid: paid
+  revenuePage:
+    authorTransfers: Author Revenue
+    readerTransfers: Reader Revenue
+    payments: Payments
+  ordersPage:
+    tabs:
+      payments: Payments
+      swapOrders: Swap Orders
